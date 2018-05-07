@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
 body {
-  font-family: 'Lato';
+  font-family: 'Open Sans', 'Lato';
   background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
 }
 
@@ -9,7 +12,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran';
+  font-family: 'Noto Sans', 'Catamaran';
   font-weight: 800 !important;
 }
 
@@ -107,6 +110,10 @@ header.masthead .bg-circle-4 {
   width: 30rem;
   top: -5rem;
   right: 35%;
+}
+
+.name-display {
+  text-transform: uppercase;
 }
 
 @media (min-width: 992px) {
